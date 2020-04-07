@@ -42,6 +42,11 @@ html {
     padding: 8px;
 }
 
+.header-link {
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+}
+
 .footer-container {
     position: fixed;
     bottom: 0px;
@@ -50,12 +55,17 @@ html {
     margin: 0px;
     width: 100%;
     height: 40px;
+    background-color: #f2f2f2;
+    color: #5f6368;
+    font-size: 14px;
+    
 }
 
 .footer {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    
 }
 
 .footer-left {
@@ -71,9 +81,20 @@ html {
 
 a {
     text-decoration: none;
-    color: black;
+    color:#5f6368;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+button {
+    font-family: arial;
+    background-color: #4387fd;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    width: 69px;
+    height: 30px;
+    border-radius: 2px;
 }
