@@ -98,3 +98,27 @@ button {
     height: 30px;
     border-radius: 2px;
 }
+
+
+
+.search-buttons {
+    display: block;
+    width: 287px;
+    margin: 14px auto;
+}
+
+.submit {
+    background-color: #f4f4f4; 
+    color: #5F6368;
+    border: 1px solid transparent;
+    font-family: arial;
+    height: 36px;
+    margin: 11px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.submit:hover {
+    color: #222;
+    border: 1px solid #c6c6c6;
+}
