@@ -25,6 +25,14 @@ html {
 #search-bar {
     width: 487px;
     margin: 0 auto;
+    border-radius: 24px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    
+}
+
+#search-bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 
 .nav-bar-container {
@@ -103,7 +111,7 @@ button {
 
 .search-buttons {
     display: block;
-    width: 287px;
+    width: 291px;
     margin: 14px auto;
 }
 
@@ -113,12 +121,14 @@ button {
     border: 1px solid transparent;
     font-family: arial;
     height: 36px;
-    margin: 11px;
+    margin: 11px 4px;
     font-size: 14px;
     border-radius: 4px;
+    padding: 0 16px;
 }
 
 .submit:hover {
     color: #222;
     border: 1px solid #c6c6c6;
 }
+
