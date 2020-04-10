@@ -37,6 +37,10 @@ html {
     opacity: 0.55;
 }
 
+#nine-squares:hover {
+    opacity: 0.9;
+}
+
 #search-bar {
     width: 527px;
     margin: 0 auto;
