@@ -60,6 +60,10 @@ html {
     padding: 0;
 }
 
+.header.header-text {
+    padding: 13px 9px;
+}
+
 .header {
     float: left;
     padding: 8px;
@@ -68,7 +72,7 @@ html {
 .header-link {
     color: rgba(0,0,0,0.87);
     font-size: 13px;
-    padding: 16px 8px;
+    padding: 0px;
 }
 
 .footer-container {
