@@ -18,8 +18,23 @@ html {
 }
 
 #search-form-div {
+    position: relative;
     width: 500px;
     margin: 0 auto;
+}
+
+.search-icon-wrapper {
+    position: absolute;
+    top: 16px;
+    left: 15px;    
+}
+
+#search-icon {
+    opacity: 0.32;
+}
+
+#nine-squares {
+    opacity: 0.55;
 }
 
 #search-bar {
